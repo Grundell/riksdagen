@@ -3,8 +3,6 @@ require 'pp'
 require 'pry'
 require 'benchmark'
 
-
-
 Pleading = Struct.new(:no, :person, :content, :point)
 Point = Struct.new(:no, :title)
 
